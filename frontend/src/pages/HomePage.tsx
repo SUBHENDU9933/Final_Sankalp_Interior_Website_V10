@@ -17,8 +17,8 @@ const heroSlides = [
     image: '/images/hero-living.jpg',
     bengali: 'ঘর নয়,',
     bengali2: 'স্বপ্ন সাজাই আমরা।',
-    english: 'Premium interiors across',
-    english2: 'Kolkata & West Bengal.',
+    english: 'Kolkata\'s Top-Rated Premium',
+    english2: 'Interior Designer — Near You',
     subtitle: 'Kolkata & West Bengal\'s most trusted interior design company — 500+ homes transformed with premium quality and transparent pricing.',
     tag: 'Kolkata\'s #1 Interior Designer',
   },
@@ -325,33 +325,38 @@ export default function HomePage() {
                   {slide.bengali2}
                 </span>
 
-                {/* English line 1 — WHITE */}
-                <span
-                  className="block font-bold"
-                  style={{
-                    fontFamily: 'Montserrat,sans-serif',
-                    fontSize: 'clamp(1.1rem,2.2vw,1.6rem)',
-                    color: '#ffffff',
-                    letterSpacing: '-0.01em',
-                    textShadow: '0 2px 12px rgba(0,0,0,0.8)',
-                  }}
-                >
-                  {slide.english}
-                </span>
+                {/* English headline — this is the page's H1, carries primary SEO keywords */}
+                <h1 style={{ margin: 0, padding: 0 }}>
+                  {/* English line 1 — WHITE */}
+                  <span
+                    className="block font-bold"
+                    style={{
+                      fontFamily: 'Montserrat,sans-serif',
+                      fontSize: 'clamp(1.1rem,2.2vw,1.6rem)',
+                      fontWeight: 700,
+                      color: '#ffffff',
+                      letterSpacing: '-0.01em',
+                      textShadow: '0 2px 12px rgba(0,0,0,0.8)',
+                    }}
+                  >
+                    {slide.english}
+                  </span>
 
-                {/* English line 2 — ORANGE */}
-                <span
-                  className="block font-bold mb-5"
-                  style={{
-                    fontFamily: 'Montserrat,sans-serif',
-                    fontSize: 'clamp(1.1rem,2.2vw,1.6rem)',
-                    color: '#f9a14b',
-                    letterSpacing: '-0.01em',
-                    textShadow: '0 2px 12px rgba(0,0,0,0.8)',
-                  }}
-                >
-                  {slide.english2}
-                </span>
+                  {/* English line 2 — ORANGE */}
+                  <span
+                    className="block font-bold mb-5"
+                    style={{
+                      fontFamily: 'Montserrat,sans-serif',
+                      fontSize: 'clamp(1.1rem,2.2vw,1.6rem)',
+                      fontWeight: 700,
+                      color: '#f9a14b',
+                      letterSpacing: '-0.01em',
+                      textShadow: '0 2px 12px rgba(0,0,0,0.8)',
+                    }}
+                  >
+                    {slide.english2}
+                  </span>
+                </h1>
               </div>
 
               {/* Subtitle — white/70 */}
