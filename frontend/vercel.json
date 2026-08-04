@@ -17,12 +17,5 @@
         { "key": "Access-Control-Allow-Headers", "value": "Content-Type, Authorization" }
       ]
     }
-  ],
-  "env": {
-    "NEXT_PUBLIC_SUPABASE_URL":      "https://jhrfnnnvivyyjzywnvse.supabase.co",
-    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable__jKUC5tRXSijAYsdXyT1Uw_iiOfXl8J",
-    "SUPABASE_SERVICE_ROLE_KEY":     "sb_secret_wH7BY79yCUaCs1asbAXh9w_EUU7oXhw",
-    "VITE_SUPABASE_URL":             "https://jhrfnnnvivyyjzywnvse.supabase.co",
-    "VITE_SUPABASE_ANON_KEY":        "sb_publishable__jKUC5tRXSijAYsdXyT1Uw_iiOfXl8J"
-  }
+  ]
 }
